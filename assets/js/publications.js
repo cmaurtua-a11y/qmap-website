@@ -147,6 +147,12 @@ window.QMAP_PUBS = [
     all: "All", strain: "Strain", nanophotonics: "Nanophotonics", excitonics: "2D excitonics",
     heterostructures: "Heterostructures", defects: "Quantum defects", magnetism: "Magnetism", other: "Other",
   };
+  // Always show Chitraleema Chakraborty in every author list, even when it is shortened with "et al."
+  window.QMAP_PUBS.forEach((p) => {
+    if (/Chakraborty/.test(p.authors)) return;
+    if (p.year >= 2021) p.authors = p.authors.replace(/,?\s*et al\.?$/, "") + ", …, C. Chakraborty";
+    else p.authors = p.authors.replace(/,?\s*et al\.?$/, "") + ", …, C. Chakraborty, …";
+  });
   let area = "all";
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const GROUP = /(C\. Chakraborty|A\. Ishraq|M\. H\. Shaikh|C\. Maurtua|A\. Puthiya Veettil|L\. Stockl|S\. Shrestha|A\. Thapa|A\. Hutchinson)/g;

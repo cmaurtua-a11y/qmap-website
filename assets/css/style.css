@@ -284,7 +284,7 @@ td.code { font-family: var(--f-mono); color: var(--exciton); white-space: nowrap
 
 /* ---------- v2 additions ---------- */
 figure.photo img { width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); }
-.featured { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 1.5rem; }
+.featured { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: 1.5rem; }
 .feat { border: 1px solid var(--line); border-radius: var(--radius); padding: 1.75rem; background: var(--ink-2); display: grid; gap: 0.75rem; align-content: start; min-width: 0; }
 .feat p { color: var(--muted); }
 .feat .authors { font-size: 0.85rem; }
