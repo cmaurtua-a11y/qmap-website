@@ -14,7 +14,7 @@ window.QMAP_PUBS = [
   { year: 2026, preprint: true, area: "defects",
     authors: "A. Ishraq, E. Herrmann, P. Agnihotri, A. Hutchinson, R. M. dos Santos, S. Asif, L. Murray, A. Puthiya Veettil, L. Stockl, M. H. Shaikh, C. Maurtua, K. Watanabe, T. Taniguchi, M. Doty, C. E. Dreyer, A. Janotti, X. Wang, C. Chakraborty",
     title: "Symmetry engineering enables deterministic ensemble polarization control in hexagonal boron nitride",
-    venue: "arXiv:2610.03547", link: "https://arxiv.org/abs/2610.03547" },
+    venue: "In review · arXiv:2610.03547", link: "https://arxiv.org/abs/2610.03547" },
   { year: 2026, preprint: true, area: "magnetism",
     authors: "M. H. Shaikh, A. Puthiya Veettil, C. Maurtua, D. Q. Ho, S. Bhatt, D. T. Plouff, M. Gulawita, K. Watanabe, T. Taniguchi, J. Q. Xiao, et al.",
     title: "Anomalous magneto-optical response at the RuO2/WSe2 van der Waals interface",
@@ -55,85 +55,6 @@ window.QMAP_PUBS = [
     authors: "C. Maurtua, C. Chakraborty",
     title: "Large-scale production of 2D transition metal dichalcogenides",
     venue: "Bulletin of the American Physical Society (APS March Meeting)" },
-
-  { year: 2020, preprint: true, area: "defects",
-    authors: "C. Chakraborty, C. J. Ciccarino, P. Narang",
-    title: "Dynamic modulation of phonon-assisted transitions in quantum defects in monolayer TMD semiconductors",
-    venue: "arXiv:2007.14399" },
-
-  { year: 2020, area: "strain", authors: "Moon et al.",
-    title: "Dynamic exciton funneling by local strain control in a monolayer semiconductor",
-    venue: "Nano Letters" },
-  { year: 2020, area: "heterostructures", authors: "Mukherjee et al.",
-    title: "Electric field tuning of deterministically created quantum dots in WSe2",
-    venue: "AIP Advances 10, 075310" },
-  { year: 2020, area: "strain", authors: "C. Chakraborty et al.",
-    title: "Strain-tuning of the optical properties of localized emitters in an atomically thin semiconductor",
-    venue: "Optica 7, 580" },
-  { year: 2020, area: "strain", authors: "Moon et al.",
-    title: "Strain-correlated localized exciton energy in atomically thin semiconductors",
-    venue: "ACS Photonics 7, 1135" },
-
-  { year: 2019, area: "excitonics", authors: "Ciccarino et al.",
-    title: "Carrier dynamics and spin-valley-layer effects in bilayer transition metal dichalcogenides",
-    venue: "Faraday Discussions 214, 175" },
-  { year: 2019, area: "nanophotonics", authors: "Peyskens et al.",
-    title: "Integration of single photon emitters in 2D layered materials with a silicon nitride photonic chip",
-    venue: "Nature Communications 10, 4452" },
-  { year: 2019, area: "other", authors: "C. Chakraborty et al.",
-    title: "Advances in quantum light emission from 2D materials",
-    venue: "Nanophotonics 8, 2017 (Review)" },
-  { year: 2019, area: "heterostructures", authors: "C. Chakraborty et al.",
-    title: "Electrical manipulation of the fine-structure splitting of WSe2 quantum emitters",
-    venue: "Phys. Rev. B 99, 045308" },
-  { year: 2019, area: "excitonics", authors: "Qiu et al.",
-    title: "Room-temperature valley coherence in a polaritonic system",
-    venue: "Nature Communications 10, 1513" },
-  { year: 2019, area: "defects", authors: "Kumarasiri et al.",
-    title: "Rabi oscillations and resonance fluorescence from a single hexagonal boron nitride quantum emitter",
-    venue: "Optica 6, 542" },
-  { year: 2019, area: "excitonics", authors: "C. Chakraborty et al.",
-    title: "Electrically tunable valley polarization and valley coherence in monolayer WSe2 embedded in a van der Waals heterostructure",
-    venue: "Optical Materials Express 9, 1479" },
-
-  { year: 2018, area: "excitonics", authors: "Dhara*, C. Chakraborty* et al.",
-    title: "Anomalous dispersion of microcavity trion-polaritons",
-    venue: "Nature Physics 14, 130", note: "* equal contribution" },
-  { year: 2018, area: "heterostructures", authors: "C. Chakraborty et al.",
-    title: "3D localized trion in monolayer WSe2 in a charge tunable van der Waals heterostructure",
-    venue: "Nano Letters 18, 2859" },
-
-  { year: 2017, area: "heterostructures", authors: "C. Chakraborty et al.",
-    title: "Quantum-confined Stark effect of individual defects in a van der Waals heterostructure",
-    venue: "Nano Letters 17, 2253" },
-
-  { year: 2016, area: "defects", authors: "C. Chakraborty et al.",
-    title: "Localized emission from defects in MoSe2 layers",
-    venue: "Optical Materials Express 6, 2081" },
-  { year: 2016, area: "nanophotonics", authors: "Goodfellow et al.",
-    title: "Distance-dependent energy transfer between CdSe/CdS quantum dots and a two-dimensional semiconductor",
-    venue: "Applied Physics Letters 108, 021101" },
-
-  { year: 2015, area: "heterostructures", authors: "C. Chakraborty et al.",
-    title: "Voltage-controlled quantum light from an atomically thin semiconductor",
-    venue: "Nature Nanotechnology 10, 507" },
-  { year: 2015, area: "heterostructures", authors: "Kinnischtzke et al.",
-    title: "Graphene mediated Stark shifting of quantum dot energy levels",
-    venue: "Applied Physics Letters 108, 211905" },
-  { year: 2015, area: "nanophotonics", authors: "Goodfellow* et al.",
-    title: "Direct on-chip optical plasmon detection with an atomically thin semiconductor",
-    venue: "Nano Letters 15, 5477", note: "* equal contribution" },
-
-  { year: 2014, area: "nanophotonics", authors: "C. Chakraborty et al.",
-    title: "Optical antenna enhanced graphene photodetector",
-    venue: "Applied Physics Letters 105, 241114" },
-  { year: 2014, area: "nanophotonics", authors: "Goodfellow et al.",
-    title: "Integrated nanophotonics based on nanowire plasmons and atomically thin material",
-    venue: "Optica 1, 149" },
-
-  { year: 2013, area: "other", authors: "Parikh*, C. Chakraborty* et al.",
-    title: "Dynamically tracking the strain across the metal-insulator transition in VO2 measured using electromechanical resonators",
-    venue: "Nano Letters 13, 4685", note: "* equal contribution" },
 ];
 
 // ---------- renderer (no need to edit below) ----------
@@ -158,7 +79,8 @@ window.QMAP_PUBS = [
   const GROUP = /(C\. Chakraborty|A\. Ishraq|M\. H\. Shaikh|C\. Maurtua|A\. Puthiya Veettil|L\. Stockl|S\. Shrestha|A\. Thapa|A\. Hutchinson)/g;
   const bold = (authors) => esc(authors).replace(GROUP, "<b>$1</b>");
 
-  Object.entries(areas).forEach(([key, label]) => {
+  // Only offer filter buttons for areas that have at least one paper
+  Object.entries(areas).filter(([key]) => key === "all" || window.QMAP_PUBS.some((p) => p.area === key)).forEach(([key, label]) => {
     const b = document.createElement("button");
     b.type = "button"; b.textContent = label; b.setAttribute("aria-pressed", String(key === area));
     b.addEventListener("click", () => {
