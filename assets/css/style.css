@@ -70,16 +70,14 @@ p { margin: 0; }
   color: var(--muted);
 }
 .label b { color: var(--exciton); font-weight: 500; }
-.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
-
 /* Schrödinger's cat "Q": a nod to the group's original logo.
    One eye open, one eye X; hovering the word swaps them (alive ⇄ dead). */
 .catq-word { white-space: nowrap; }
 .catq {
-  width: 1.45em; height: 1.45em;
-  vertical-align: -0.38em;
-  margin-right: 0.04em;
-  fill: none; stroke: currentColor; stroke-width: 1.9;
+  width: 2.1em; height: 2.1em;
+  vertical-align: -0.62em;
+  margin-right: 0.05em;
+  fill: none; stroke: currentColor; stroke-width: 1.7;
   stroke-linecap: round; stroke-linejoin: round;
   overflow: visible;
 }
